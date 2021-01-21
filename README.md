@@ -1,4 +1,4 @@
-https://jaeseon-cardmaker.netlify.app/
+주소 : https://jaeseon-cardmaker.netlify.app/
 
 # 수업전 스스로 만든 card-maker
 
