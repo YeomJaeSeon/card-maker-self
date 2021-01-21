@@ -1,0 +1,57 @@
+@value makerDarkBlue from '../../common/colors.css';
+
+.container {
+  margin: auto;
+  width: 90%;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.row1 {
+  display: flex;
+  height: 20%;
+}
+.row1_col1,
+.row1_col2,
+.row1_col3 {
+  width: 33%;
+  height: 100%;
+}
+.row2 {
+  display: flex;
+  height: 20%;
+}
+.row2_col1,
+.row2_col2 {
+  width: 50%;
+  height: 100%;
+}
+.row3 {
+  height: 25%;
+}
+.row4 {
+  display: flex;
+  height: 25%;
+}
+.btn1,
+.btn2 {
+  width: 50%;
+}
+.btn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1.2rem;
+}
+.btn2 {
+  background-color: makerDarkBlue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}

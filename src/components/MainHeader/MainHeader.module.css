@@ -1,0 +1,33 @@
+@value makerWhite from '../../common/colors.css';
+
+.header {
+  position: relative;
+  width: 100%;
+  padding-top: 5px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: auto;
+}
+.img {
+  width: 50px;
+}
+.desc {
+  margin: 5px 0px;
+  color: makerWhite;
+}
+.logout {
+  position: absolute;
+  font-size: 0.6em;
+  top: 5px;
+  right: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}

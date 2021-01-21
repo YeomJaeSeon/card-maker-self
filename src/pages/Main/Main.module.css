@@ -1,0 +1,18 @@
+@value makerDarkBlue from '../../common/colors.css';
+@value makerWhite from '../../common/colors.css';
+
+.container {
+  width: 80vw;
+  height: 100vh;
+  background-color: makerDarkBlue;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  background-color: makerWhite;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: auto;
+}
